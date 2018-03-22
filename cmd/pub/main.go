@@ -17,10 +17,10 @@ import (
 
 func main() {
 	topic := "hotlife-micro-service/notice/"                     //ali-topic
-	broker := "tcp://mqtt-cn-0pp0j61k701.mqtt.aliyuncs.com:1883" //ali-host
-	password := "5WbyEo5fSx0AsCICwOHefRf9wIOIzS"                 //ali-password
-	user := "LTAIF9H8DSzvqupe"                                   //ali-username
-	clientid := "GID_ORDER_ERVICE@@@ClientID_0001"               //ali-clientid :GID_ORDER_ERVICE@@@ClientID_0001
+	broker := "tcp://mqtt-cn-xxxxxxxxxxx.mqtt.aliyuncs.com:1883" //ali-host
+	password := "5WbxxxxxxxxxxxxxxxHefRf9wIOIzS"                 //ali-password
+	user := "LTAIxxxxxxxxqupe"                                   //ali-username
+	clientid := "GID_ERVICE@@@ClientID_0001"                     //ali-clientid :GID_ORDER_ERVICE@@@ClientID_0001
 	cleansess := false                                           //ali-cleansess-session:true关闭 false开启
 	qos := 1                                                     //qos action
 	num := 10                                                    //publish num

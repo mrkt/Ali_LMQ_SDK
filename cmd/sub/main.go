@@ -27,10 +27,10 @@ func main() {
 	offline_topic := "$SYS/getOfflineMsg"                        //ali-offline-topic
 	Offline_take := 100                                          //ali-offline-takenum
 	Offline_sort := "DESC"                                       //ali-offline-orderby
-	broker := "tcp://mqtt-cn-0pp0j61k701.mqtt.aliyuncs.com:1883" //ali-host
-	password := "5WbyEo5fSx0AsCICwOHefRf9wIOIzS"                 //ali-password
-	user := "LTAIF9H8DSzvqupe"                                   //ali-username
-	clientid := "GID_ORDER_ERVICE@@@ClientID_0002"               //ali-clientid :GID_ORDER_ERVICE@@@ClientID_0001
+	broker := "tcp://mqtt-cn-xxxxxxxxxx .mqtt.aliyuncs.com:1883" //ali-host
+	password := "5WbxxxxxxxxxxxxxxxHefRf9wIOIzS"                 //ali-password
+	user := "LTAIxxxxxxxxqupe"                                   //ali-username
+	clientid := "GID_ERVICE@@@ClientID_0002"                     //ali-clientid :GID_ORDER_ERVICE@@@ClientID_0001
 	cleansess := false                                           //ali-cleansess-session:true关闭 false开启
 	qos := 1                                                     //qos action
 	payload := "message-test"                                    //publish value
