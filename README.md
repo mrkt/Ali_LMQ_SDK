@@ -3,3 +3,17 @@ Please refer to https://www.aliyun.com/product/ons and  https://help.aliyun.com/
 
 ## Samples    
 You must fulfill the AccessId/AccessKey/AccountID in the example before running.   
+
+
+So installation is as easy as:
+
+```
+go get https://github.com/mrkt/Ali_LMQ_SDK
+```
+
+The client depends on paho.mqtt.golang package, also easily installed with the commands:
+
+
+```
+go get github.com/eclipse/paho.mqtt.golang
+```
