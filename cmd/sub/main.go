@@ -1,6 +1,5 @@
 //|------------------------------------------------------------------
 //| Ali LMQ MQTT
-//| All rights reserved: By cellgo.cn CopyRight
 //| Author:Tommy.Jin Dtime:2018-3-20
 //|-------------------------------------------------------------------
 
@@ -28,8 +27,8 @@ func main() {
 	Offline_take := 100                                          //ali-offline-takenum
 	Offline_sort := "DESC"                                       //ali-offline-orderby
 	broker := "tcp://mqtt-cn-xxxxxxxxxx .mqtt.aliyuncs.com:1883" //ali-host
-	password := "5WbxxxxxxxxxxxxxxxHefRf9wIOIzS"                 //ali-password
-	user := "LTAIxxxxxxxxqupe"                                   //ali-username
+	password := "5WbXXXXXXXXXXXXXXXXXXXXXXXXXXX"                 //ali-password
+	user := "LTAIXXXXXXXXXXXX"                                   //ali-username
 	clientid := "GID_ERVICE@@@ClientID_0002"                     //ali-clientid :GID_ORDER_ERVICE@@@ClientID_0001
 	cleansess := false                                           //ali-cleansess-session:true关闭 false开启
 	qos := 1                                                     //qos action

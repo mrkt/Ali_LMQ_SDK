@@ -1,6 +1,5 @@
 //|------------------------------------------------------------------
 //| Ali LMQ MQTT
-//| All rights reserved: By cellgo.cn CopyRight
 //| Author:Tommy.Jin Dtime:2018-3-20
 //|-------------------------------------------------------------------
 
@@ -18,8 +17,8 @@ import (
 func main() {
 	topic := "hotlife-micro-service/notice/"                     //ali-topic
 	broker := "tcp://mqtt-cn-xxxxxxxxxxx.mqtt.aliyuncs.com:1883" //ali-host
-	password := "5WbxxxxxxxxxxxxxxxHefRf9wIOIzS"                 //ali-password
-	user := "LTAIxxxxxxxxqupe"                                   //ali-username
+	password := "5WbXXXXXXXXXXXXXXXXXXXXXXXXXXX"                 //ali-password
+	user := "LTAIXXXXXXXXXXXX"                                   //ali-username
 	clientid := "GID_ERVICE@@@ClientID_0001"                     //ali-clientid :GID_ORDER_ERVICE@@@ClientID_0001
 	cleansess := false                                           //ali-cleansess-session:true关闭 false开启
 	qos := 1                                                     //qos action
