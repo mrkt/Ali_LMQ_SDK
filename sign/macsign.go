@@ -45,7 +45,7 @@ func PublishSignature(clientId string, secretKey string) string {
 * @param secretKey 阿里云 MQ SecretKey
 * @return 加密后的字符串
  */
-func SublishSignature(clientId string, secretKey string) string {
+func SubscribeSignature(clientId string, secretKey string) string {
 	return MacSignature(clientId, secretKey)
 }
 
